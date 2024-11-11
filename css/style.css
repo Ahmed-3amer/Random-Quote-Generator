@@ -15,6 +15,7 @@ header h1 {
     padding-block: 15px;
 }
 
+
 header p {
     font-size: 38px;
     font-family: 'Beau Rivage', cursive;
@@ -43,6 +44,107 @@ header .quote-icon2 {
   bottom: 10%;
   right: 30%;
 }
+
+.img-fluid {
+  width: 160px;
+  height: 160px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  header .main-head {
+    margin-bottom: 70px;
+}
+
+  header h1 {
+    font-size: 50px;
+    padding-top: 50px;
+
+  }
+
+  header p {
+      font-size: 33px;
+      max-width: 650px;
+  }
+  header .quote-icon1 {
+    font-size: 50px;
+    top: 14%;
+    left: 25%;
+    }
+    header .quote-icon2 {
+      font-size: 50px;
+      bottom: 15%;
+      right: 30%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+  header .main-head {
+    margin-bottom: 70px;
+}
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header p {
+      font-size: 33px;
+      max-width: 650px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .main-head {
+    margin-bottom: 70px;
+}
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header p {
+      font-size: 33px;
+      max-width: 650px;
+  }
+  header .quote-icon1 {
+    font-size: 40px;
+    top: 15%;
+    left: 17%;
+    }
+    
+    header .quote-icon2 {
+      font-size: 40px;
+      bottom: 20%;
+      right: 25%;
+    }
+}
+@media screen and (max-width: 576px) {
+  header .main-head {
+    margin-bottom: 70px;
+}
+
+  header h1 {
+    font-size: 50px;
+    padding-top: 50px;
+  }
+
+  header p {
+      font-size: 33px;
+      max-width: 650px;
+  }
+  header .quote-icon1 {
+    font-size: 40px;
+    top: 15%;
+    left: 5%;
+    }
+    
+    header .quote-icon2 {
+      font-size: 40px;
+      bottom: 20%;
+      right: 15%;
+    }
+}
+
 
 button {
     position: relative;
